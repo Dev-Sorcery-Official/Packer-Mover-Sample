@@ -165,22 +165,28 @@ export default function Navbar() {
 
           {/* Social Icons */}
           <div className="hidden md:flex gap-5 text-lg">
-            <a href="#" className="hover:text-[#E50914] transition">
-              <FaYoutube />
-            </a>
-            <a href="#" className="hover:text-[#E50914] transition">
-              <FaFacebookF />
-            </a>
-            <a href="#" className="hover:text-[#E50914] transition">
-              <FaInstagram />
-            </a>
-            <a href="#" className="hover:text-[#E50914] transition">
-              <FaTwitter />
-            </a>
-            <a href="#" className="hover:text-[#E50914] transition">
-              <FaLinkedinIn />
-            </a>
-          </div>
+  
+  <a href="#" className="text-[#FF0000] hover:scale-110 transition">
+    <FaYoutube />
+  </a>
+
+  <a href="#" className="text-[#1877F2] hover:scale-110 transition">
+    <FaFacebookF />
+  </a>
+
+  <a href="#" className="text-[#E4405F] hover:scale-110 transition">
+    <FaInstagram />
+  </a>
+
+  <a href="#" className="text-[#1DA1F2] hover:scale-110 transition">
+    <FaTwitter />
+  </a>
+
+  <a href="#" className="text-[#0A66C2] hover:scale-110 transition">
+    <FaLinkedinIn />
+  </a>
+
+</div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden">
