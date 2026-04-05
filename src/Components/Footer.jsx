@@ -25,7 +25,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Translator from "./Translator";
-import VisitorCounter from "./VIsitorCounter";
+import VisitorCounter from "./VisitorCounter";
 
 /* ================= ANIMATION ================= */
 const containerVariants = {
