@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+.swiper-wrapper {
+  transition-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+}
+/* Hide on small screens */
+@media (max-width: 767px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+/* Default dot */
+.swiper-pagination-bullet {
+  background: #555555;
+  opacity: 0.6;
+  width: 8px;
+  height: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Active dot */
+.swiper-pagination-bullet-active {
+  background: #E50914;
+  width: 18px;
+  border-radius: 10px;
+  opacity: 1;
+}
+/* Smaller dots on mobile */
+@media (max-width: 640px) {
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+/* Bigger dots on large screens */
+@media (min-width: 1024px) {
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}

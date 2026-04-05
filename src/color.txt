@@ -1,0 +1,9 @@
+| **Color Name**          | **Hex Code** | **Usage Purpose**                     | **Description / Effect**                                                                |
+| ----------------------- | ------------ | ------------------------------------- | --------------------------------------------------------------------------------------- |
+| 🔴 **Primary Red**      | `#E50914`    | Brand accent, buttons, links, icons   | Strong red to symbolize energy, action, and trust — perfect for call-to-actions (CTAs). |
+| ⚪ **Pure White**        | `#FFFFFF`    | Backgrounds, text on dark areas       | Creates a clean, professional base and balances red’s intensity.                        |
+| ⚫ **Rich Black**        | `#0A0A0A`    | Texts, headings, navbar, footer       | Deep black for a premium contrast and readability.                                      |
+| ⚫ **Charcoal Gray**     | `#1F1F1F`    | Secondary background, card background | Slightly softer than pure black, adds depth to sections.                                |
+| 🔴 **Soft Red (Hover)** | `#FF2B2B`    | Button hover, highlight effects       | Brighter red for hover states, keeping interactivity visible.                           |
+| ⚪ **Light Gray**        | `#F5F5F5`    | Section backgrounds, dividers         | Keeps layout clean and maintains modern contrast.                                       |
+| ⚫ **Text Gray**         | `#555555`    | Secondary text                        | Maintains visual hierarchy for paragraph and subtext.                                   |
